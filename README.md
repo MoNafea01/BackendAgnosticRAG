@@ -1,6 +1,6 @@
-# mini-rag
+# Backend-Agnostic RAG System - Pluggable Storage & LLM Providers
 
-This is a minimal implementation of the RAG model for question answering.
+This is an implementation of the RAG model for question answering.
 
 ## Requirements
 
