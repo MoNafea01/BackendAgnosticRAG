@@ -75,7 +75,7 @@ services:
       - celery-worker
     env_file:
       - ./env/minirag/.env
-    command: ["python", "-m", "celery", "-A", "celery_app", "flower", "--conf=flowerconfig.py"]
+    command: ["python", "-m", "celery", "-A", "celery_app", "flower", "--conf=flower_config.py"]
 
   # Nginx
   nginx:
